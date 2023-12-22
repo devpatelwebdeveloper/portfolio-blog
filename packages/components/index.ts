@@ -1,6 +1,3 @@
-import Button from "./Button"
-
-export{
-  Button
-}
-
+export * from "./Atoms"
+export * from "./Molecules"
+export * from "./Organisms"
