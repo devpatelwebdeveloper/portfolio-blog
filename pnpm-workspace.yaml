@@ -1,2 +1,5 @@
 packages:
   - "./packages/**"
+pnpm:
+  engines:
+    node: ">=18.14.1"
