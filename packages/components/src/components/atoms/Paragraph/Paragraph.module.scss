@@ -1,0 +1,17 @@
+@import '../../../styles/styles.scss';
+
+p{
+  font-family: $font-family;
+  font-size:$fontSize-body01;
+  font-weight:$lineHeight-body01
+}
+.default{
+  color: $grey01;
+}
+.blue {
+ color: $blue01;
+
+}
+.red {
+ color: $red01;
+}
