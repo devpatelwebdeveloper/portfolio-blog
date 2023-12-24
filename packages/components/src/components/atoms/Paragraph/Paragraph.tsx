@@ -9,7 +9,7 @@ export interface ParagraphProps {
 
 function Paragraph({ children, theme = 'default' }: ParagraphProps) {
  return (
-  <p className={classNames(styles[theme])}>{children} check</p>
+  <p className={classNames(styles[theme])}>{children}</p>
  )
 }
 

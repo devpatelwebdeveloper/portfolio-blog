@@ -1,5 +1,5 @@
 import React from "react";
-import { ComponentStory, ComponentMeta } from '@storybook/react'
+import { StoryFn, Meta } from '@storybook/react'
 import Paragraph, { ParagraphProps } from "./Paragraph"
 
 export default {
@@ -12,10 +12,11 @@ export default {
   },
   theme: {
    control: { type: "select", options: ["default","blue", "red"] }
-  }
+  },
+  tags: ['autodocs'],
  }
-} as ComponentMeta<typeof Paragraph>;
+} as Meta<typeof Paragraph>;
 
-const Template: ComponentStory<typeof Paragraph> = (args: ParagraphProps) => <Paragraph {...args} />;
+const Template: StoryFn<typeof Paragraph> = (args: ParagraphProps) => <Paragraph {...args} />;
 
 export const Default = Template.bind({});
